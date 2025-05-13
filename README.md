@@ -49,7 +49,7 @@ youtube-etl-project/
 
 3. Lambda Integration (if applicable):
 
-   -> Deploy the lambda_function.py to AWS Lambda, which processes JSON data in your pipeline.
+   -> Deploy the lambda_function.py to AWS Lambda, which processes JSON data in pipeline.
 
 4. Execute the Glue Jobs:
 
@@ -57,7 +57,7 @@ youtube-etl-project/
 
 5. Check Results:
 
-   -> Processed data should appear in your output S3 bucket, in Parquet format, partitioned by region and category_id.
+   -> Processed data should appear in output S3 bucket, in Parquet format, partitioned by region and category_id.
 
 📝 Notes
 
